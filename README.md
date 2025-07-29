@@ -32,7 +32,7 @@
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/shortiq.git
+git clone https://github.com/Keerthana379/urlio.git
 cd shortiq
 ```
 
