@@ -1,10 +1,11 @@
-// import { useState } from 'react'
-import './App.css'
 import UrlForm from "./components/UrlForm";
-function App() {
-  // const [count, setCount] = useState(0)
 
-  return <UrlForm />;
+function App() {
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-100 to-pink-50 flex items-center justify-center p-4">
+      <UrlForm />
+    </div>
+  );
 }
 
-export default App
+export default App;

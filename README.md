@@ -1,6 +1,6 @@
-# 🔗 Shortiq - URL Shortener
+# 🔗 Urlio - URL Shortener
 
-**Shortiq** is a full-stack URL shortening web application that allows users to easily generate short, shareable links from long URLs — just like Bitly, TinyURL, or Rebrandly, but custom-built.
+**Urlio** is a full-stack URL shortening web application that allows users to easily generate short, shareable links from long URLs — just like Bitly, TinyURL, or Rebrandly, but custom-built.
 
 ---
 
@@ -32,8 +32,8 @@
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/shortiq.git
-cd shortiq
+git clone https://github.com/Keerthana379/urlio.git
+cd urlio
 ```
 
 ### 2. Install dependencies
@@ -75,7 +75,7 @@ Open the app in your browser at: [http://localhost:5173](http://localhost:5173)
 ## 📁 Project Structure
 
 ```
-shortiq/
+urlio/
 ├── client/              # React frontend
 │   ├── src/
 │   └── tailwind.config.js

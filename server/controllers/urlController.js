@@ -1,7 +1,7 @@
 const Url = require("../models/Url");
 const { nanoid } = require("nanoid");
 
-const BASE_URL = "https://urlio.netlify.app/";
+const BASE_URL = "http://localhost:8700";
 
 exports.shortenUrl = async (req, res) => {
   const { originalUrl } = req.body;

@@ -9,7 +9,7 @@ import {
   Snackbar,
 } from "@mui/material";
 import axios from "axios";
-const API_BASE = "https://urlio.netlify.app/";
+const API_BASE = "http://localhost:8700";
 
 const UrlForm = () => {
   const [originalUrl, setOriginalUrl] = useState("");
@@ -33,7 +33,7 @@ const UrlForm = () => {
 
   return (
     <Container maxWidth="sm" sx={{ mt: 10 }}>
-      <Typography variant="h4" align="center" gutterBottom>
+      <Typography variant="h4" align="center" gutterBottom sx={{ color: 'black' }}>
         🔗 Urlio — URL Shortener
       </Typography>
       <Box component="form" onSubmit={handleSubmit} sx={{ mt: 4 }}>
@@ -57,7 +57,7 @@ const UrlForm = () => {
 
       {shortUrl && (
         <Box sx={{ mt: 4, textAlign: "center" }}>
-          <Typography variant="subtitle1">Your Short URL:</Typography>
+          <Typography variant="subtitle1" sx={{ color: 'black' }}>Your Short URL:</Typography>
           <Typography
             variant="h6"
             color="primary"
